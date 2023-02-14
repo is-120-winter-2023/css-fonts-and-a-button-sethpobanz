@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A webpage containing information about snow geese.">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <title>Home - Snow Geese</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a href="about/">About</a></li>
+        <li><a href="contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- it keeps flagging me for not including the intrinsic value for the img but Prof. Burton's Code doesn't 
+  have it either so I'm not sure what to do here. -->
+  <picture>
+    <source srcset="images/hero-1600.jpg" media="(min-width: 801px)">
+    <source srcset="images/hero-800.jpg" media="(min-width: 401px)">
+    <source srcset="images/hero-400.jpg" media="(max-width: 400px)">
+    <img src="images/snowgoose.jpg" alt="white flying snow goose">
+  </picture>
+
+
+  <main>
+    <article>
+
+      <h1>What are they?</h1>
+      <p>Growing up in northern Utah I had never seen a snow goose in my life. Turns out, they are
+        <strong>everywhere!</strong>
+      </p>
+      <h2>Snow Geese</h2>
+      <p>These geese like the snow so much they named themselves after it.</p>
+      <a href="#" class="button">Learn More</a>
+    </article>
+    <article>
+      <h2>Why do they <em>matter?</em></h2>
+      <p>Snow geese are the most populous breed of geese in north america, and are causing major concerns for farmers in
+        the midwest</p>
+      <a href="#" class="button">Contact Us</a>
+
+    </article>
+    <aside>
+      <p>Fun fact: Snow geese are the most vocal breed of geese and make a very high pitched scream rather than a deep
+        honk. They can also growl</p>
+    </aside>
+  </main>
+
+
+  <footer>
+    <p>Save the Snows</p>
+  </footer>
+
+</body>
+
+
+</html>
